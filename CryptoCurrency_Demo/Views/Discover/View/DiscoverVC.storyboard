@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EaW-Tg-qdV">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Discover-->
+        <scene sceneID="LhH-Mc-x6Z">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="EaW-Tg-qdV" customClass="DiscoverVC" customModule="EquityGroupTest_TusharZade" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BEH-GB-hv8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="wOm-bk-Nrk">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bkk-tc-1yX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bkk-tc-1yX" firstAttribute="bottom" secondItem="wOm-bk-Nrk" secondAttribute="bottom" id="2Wz-cl-nk8"/>
+                            <constraint firstItem="bkk-tc-1yX" firstAttribute="trailing" secondItem="wOm-bk-Nrk" secondAttribute="trailing" id="T92-YH-8Bf"/>
+                            <constraint firstItem="wOm-bk-Nrk" firstAttribute="top" secondItem="bkk-tc-1yX" secondAttribute="top" id="kBH-Ge-ddb"/>
+                            <constraint firstItem="wOm-bk-Nrk" firstAttribute="leading" secondItem="bkk-tc-1yX" secondAttribute="leading" id="xb2-vE-OWT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Discover" id="l9s-f8-35b">
+                        <barButtonItem key="leftBarButtonItem" title="Favourites" id="MkF-UR-bkW">
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <connections>
+                                <action selector="favouritesItemClicked:" destination="EaW-Tg-qdV" id="o6E-cs-Arh"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="line.3.horizontal.decrease.circle.fill" catalog="system" id="SR8-nL-MX5">
+                            <color key="tintColor" systemColor="labelColor"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="discoverList" destination="wOm-bk-Nrk" id="MKI-GY-C1Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1rn-L0-ba5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1031.2977099236641" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="line.3.horizontal.decrease.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
