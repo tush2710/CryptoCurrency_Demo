@@ -32,48 +32,48 @@
 
 /* Begin PBXFileReference section */
 		BD46E0812D772CA3002F45E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		BD6854E92D720E18006852A8 /* EquityGroupTest_TusharZade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EquityGroupTest_TusharZade.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD6854FF2D720E1B006852A8 /* EquityGroupTest_TusharZadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquityGroupTest_TusharZadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD6855092D720E1B006852A8 /* EquityGroupTest_TusharZadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquityGroupTest_TusharZadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6854E92D720E18006852A8 /* CryptoCurrency_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCurrency_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6854FF2D720E1B006852A8 /* CryptoCurrency_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCurrency_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6855092D720E1B006852A8 /* CryptoCurrency_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCurrency_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BD46E09B2D777868002F45E2 /* Exceptions for "EquityGroupTest_TusharZade" folder in "EquityGroupTest_TusharZadeTests" target */ = {
+		BD46E09B2D777868002F45E2 /* Exceptions for "CryptoCurrency_Demo" folder in "CryptoCurrency_DemoTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Services/Endpoint.swift,
 				Services/NetworkConfig.swift,
 				Services/NetworkManager.swift,
 			);
-			target = BD6854FE2D720E1B006852A8 /* EquityGroupTest_TusharZadeTests */;
+			target = BD6854FE2D720E1B006852A8 /* CryptoCurrency_DemoTests */;
 		};
-		BD6855112D720E1B006852A8 /* Exceptions for "EquityGroupTest_TusharZade" folder in "EquityGroupTest_TusharZade" target */ = {
+		BD6855112D720E1B006852A8 /* Exceptions for "CryptoCurrency_Demo" folder in "CryptoCurrency_Demo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/Info.plist,
 			);
-			target = BD6854E82D720E18006852A8 /* EquityGroupTest_TusharZade */;
+			target = BD6854E82D720E18006852A8 /* CryptoCurrency_Demo */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BD6854EB2D720E18006852A8 /* EquityGroupTest_TusharZade */ = {
+		BD6854EB2D720E18006852A8 /* CryptoCurrency_Demo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BD6855112D720E1B006852A8 /* Exceptions for "EquityGroupTest_TusharZade" folder in "EquityGroupTest_TusharZade" target */,
-				BD46E09B2D777868002F45E2 /* Exceptions for "EquityGroupTest_TusharZade" folder in "EquityGroupTest_TusharZadeTests" target */,
+				BD6855112D720E1B006852A8 /* Exceptions for "CryptoCurrency_Demo" folder in "CryptoCurrency_Demo" target */,
+				BD46E09B2D777868002F45E2 /* Exceptions for "CryptoCurrency_Demo" folder in "CryptoCurrency_DemoTests" target */,
 			);
-			path = EquityGroupTest_TusharZade;
+			path = CryptoCurrency_Demo;
 			sourceTree = "<group>";
 		};
-		BD6855022D720E1B006852A8 /* EquityGroupTest_TusharZadeTests */ = {
+		BD6855022D720E1B006852A8 /* CryptoCurrency_DemoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EquityGroupTest_TusharZadeTests;
+			path = CryptoCurrency_DemoTests;
 			sourceTree = "<group>";
 		};
-		BD68550C2D720E1B006852A8 /* EquityGroupTest_TusharZadeUITests */ = {
+		BD68550C2D720E1B006852A8 /* CryptoCurrency_DemoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EquityGroupTest_TusharZadeUITests;
+			path = CryptoCurrency_DemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -118,9 +118,9 @@
 		BD6854E02D720E18006852A8 = {
 			isa = PBXGroup;
 			children = (
-				BD6854EB2D720E18006852A8 /* EquityGroupTest_TusharZade */,
-				BD6855022D720E1B006852A8 /* EquityGroupTest_TusharZadeTests */,
-				BD68550C2D720E1B006852A8 /* EquityGroupTest_TusharZadeUITests */,
+				BD6854EB2D720E18006852A8 /* CryptoCurrency_Demo */,
+				BD6855022D720E1B006852A8 /* CryptoCurrency_DemoTests */,
+				BD68550C2D720E1B006852A8 /* CryptoCurrency_DemoUITests */,
 				BD46DF982D75829D002F45E2 /* Frameworks */,
 				BD6854EA2D720E18006852A8 /* Products */,
 			);
@@ -129,9 +129,9 @@
 		BD6854EA2D720E18006852A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD6854E92D720E18006852A8 /* EquityGroupTest_TusharZade.app */,
-				BD6854FF2D720E1B006852A8 /* EquityGroupTest_TusharZadeTests.xctest */,
-				BD6855092D720E1B006852A8 /* EquityGroupTest_TusharZadeUITests.xctest */,
+				BD6854E92D720E18006852A8 /* CryptoCurrency_Demo.app */,
+				BD6854FF2D720E1B006852A8 /* CryptoCurrency_DemoTests.xctest */,
+				BD6855092D720E1B006852A8 /* CryptoCurrency_DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD6854E82D720E18006852A8 /* EquityGroupTest_TusharZade */ = {
+		BD6854E82D720E18006852A8 /* CryptoCurrency_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD6855122D720E1B006852A8 /* Build configuration list for PBXNativeTarget "EquityGroupTest_TusharZade" */;
+			buildConfigurationList = BD6855122D720E1B006852A8 /* Build configuration list for PBXNativeTarget "CryptoCurrency_Demo" */;
 			buildPhases = (
 				BD6854E52D720E18006852A8 /* Sources */,
 				BD6854E62D720E18006852A8 /* Frameworks */,
@@ -152,21 +152,21 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BD6854EB2D720E18006852A8 /* EquityGroupTest_TusharZade */,
+				BD6854EB2D720E18006852A8 /* CryptoCurrency_Demo */,
 			);
-			name = EquityGroupTest_TusharZade;
+			name = CryptoCurrency_Demo;
 			packageProductDependencies = (
 				BD46DF8E2D75754A002F45E2 /* SDWebImage */,
 				BD46DF902D75754A002F45E2 /* SDWebImageMapKit */,
 				BD46DF9C2D758D8F002F45E2 /* SDWebImageSVGCoder */,
 			);
 			productName = EquityGroupTest_TusharZade;
-			productReference = BD6854E92D720E18006852A8 /* EquityGroupTest_TusharZade.app */;
+			productReference = BD6854E92D720E18006852A8 /* CryptoCurrency_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD6854FE2D720E1B006852A8 /* EquityGroupTest_TusharZadeTests */ = {
+		BD6854FE2D720E1B006852A8 /* CryptoCurrency_DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD6855172D720E1B006852A8 /* Build configuration list for PBXNativeTarget "EquityGroupTest_TusharZadeTests" */;
+			buildConfigurationList = BD6855172D720E1B006852A8 /* Build configuration list for PBXNativeTarget "CryptoCurrency_DemoTests" */;
 			buildPhases = (
 				BD6854FB2D720E1B006852A8 /* Sources */,
 				BD6854FC2D720E1B006852A8 /* Frameworks */,
@@ -178,18 +178,18 @@
 				BD6855012D720E1B006852A8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BD6855022D720E1B006852A8 /* EquityGroupTest_TusharZadeTests */,
+				BD6855022D720E1B006852A8 /* CryptoCurrency_DemoTests */,
 			);
-			name = EquityGroupTest_TusharZadeTests;
+			name = CryptoCurrency_DemoTests;
 			packageProductDependencies = (
 			);
 			productName = EquityGroupTest_TusharZadeTests;
-			productReference = BD6854FF2D720E1B006852A8 /* EquityGroupTest_TusharZadeTests.xctest */;
+			productReference = BD6854FF2D720E1B006852A8 /* CryptoCurrency_DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BD6855082D720E1B006852A8 /* EquityGroupTest_TusharZadeUITests */ = {
+		BD6855082D720E1B006852A8 /* CryptoCurrency_DemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD68551A2D720E1B006852A8 /* Build configuration list for PBXNativeTarget "EquityGroupTest_TusharZadeUITests" */;
+			buildConfigurationList = BD68551A2D720E1B006852A8 /* Build configuration list for PBXNativeTarget "CryptoCurrency_DemoUITests" */;
 			buildPhases = (
 				BD6855052D720E1B006852A8 /* Sources */,
 				BD6855062D720E1B006852A8 /* Frameworks */,
@@ -201,13 +201,13 @@
 				BD68550B2D720E1B006852A8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BD68550C2D720E1B006852A8 /* EquityGroupTest_TusharZadeUITests */,
+				BD68550C2D720E1B006852A8 /* CryptoCurrency_DemoUITests */,
 			);
-			name = EquityGroupTest_TusharZadeUITests;
+			name = CryptoCurrency_DemoUITests;
 			packageProductDependencies = (
 			);
 			productName = EquityGroupTest_TusharZadeUITests;
-			productReference = BD6855092D720E1B006852A8 /* EquityGroupTest_TusharZadeUITests.xctest */;
+			productReference = BD6855092D720E1B006852A8 /* CryptoCurrency_DemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BD6854E42D720E18006852A8 /* Build configuration list for PBXProject "EquityGroupTest_TusharZade" */;
+			buildConfigurationList = BD6854E42D720E18006852A8 /* Build configuration list for PBXProject "CryptoCurrency_Demo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -251,9 +251,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD6854E82D720E18006852A8 /* EquityGroupTest_TusharZade */,
-				BD6854FE2D720E1B006852A8 /* EquityGroupTest_TusharZadeTests */,
-				BD6855082D720E1B006852A8 /* EquityGroupTest_TusharZadeUITests */,
+				BD6854E82D720E18006852A8 /* CryptoCurrency_Demo */,
+				BD6854FE2D720E1B006852A8 /* CryptoCurrency_DemoTests */,
+				BD6855082D720E1B006852A8 /* CryptoCurrency_DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,12 +309,12 @@
 /* Begin PBXTargetDependency section */
 		BD6855012D720E1B006852A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD6854E82D720E18006852A8 /* EquityGroupTest_TusharZade */;
+			target = BD6854E82D720E18006852A8 /* CryptoCurrency_Demo */;
 			targetProxy = BD6855002D720E1B006852A8 /* PBXContainerItemProxy */;
 		};
 		BD68550B2D720E1B006852A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD6854E82D720E18006852A8 /* EquityGroupTest_TusharZade */;
+			target = BD6854E82D720E18006852A8 /* CryptoCurrency_Demo */;
 			targetProxy = BD68550A2D720E1B006852A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -330,18 +330,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EquityGroupTest_TusharZade/Resources/Info.plist;
+				INFOPLIST_FILE = CryptoCurrency_Demo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tushar.EquityGroupTest-TusharZade";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tushar.CryptoCurrency_Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -359,18 +360,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EquityGroupTest_TusharZade/Resources/Info.plist;
+				INFOPLIST_FILE = CryptoCurrency_Demo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tushar.EquityGroupTest-TusharZade";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tushar.CryptoCurrency_Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -511,7 +513,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EquityGroupTest_TusharZade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EquityGroupTest_TusharZade";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCurrency_Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoCurrency_Demo";
 			};
 			name = Debug;
 		};
@@ -529,7 +531,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EquityGroupTest_TusharZade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EquityGroupTest_TusharZade";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCurrency_Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoCurrency_Demo";
 			};
 			name = Release;
 		};
@@ -568,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD6854E42D720E18006852A8 /* Build configuration list for PBXProject "EquityGroupTest_TusharZade" */ = {
+		BD6854E42D720E18006852A8 /* Build configuration list for PBXProject "CryptoCurrency_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD6855152D720E1B006852A8 /* Debug */,
@@ -577,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD6855122D720E1B006852A8 /* Build configuration list for PBXNativeTarget "EquityGroupTest_TusharZade" */ = {
+		BD6855122D720E1B006852A8 /* Build configuration list for PBXNativeTarget "CryptoCurrency_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD6855132D720E1B006852A8 /* Debug */,
@@ -586,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD6855172D720E1B006852A8 /* Build configuration list for PBXNativeTarget "EquityGroupTest_TusharZadeTests" */ = {
+		BD6855172D720E1B006852A8 /* Build configuration list for PBXNativeTarget "CryptoCurrency_DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD6855182D720E1B006852A8 /* Debug */,
@@ -595,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD68551A2D720E1B006852A8 /* Build configuration list for PBXNativeTarget "EquityGroupTest_TusharZadeUITests" */ = {
+		BD68551A2D720E1B006852A8 /* Build configuration list for PBXNativeTarget "CryptoCurrency_DemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD68551B2D720E1B006852A8 /* Debug */,
