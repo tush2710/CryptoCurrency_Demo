@@ -31,8 +31,7 @@ This is a demo app that displays information about the top 100 cryptocurrency co
 - Swipe left to unfavorite a coin.
 
 
-https://github.com/user-attachments/assets/9de7a791-4d31-4639-87f2-fc92af1fea2f
-
+https://github.com/user-attachments/assets/ba7bc8ea-3daa-4f3d-a349-cd1ae366cc8b
 
 # Architecture Includes
 - Clean Architecure
