@@ -50,8 +50,9 @@ https://github.com/user-attachments/assets/ba7bc8ea-3daa-4f3d-a349-cd1ae366cc8b
 # How to Run the App
 1. Clone the repository.
 2. Open the .xcodeproj file in Xcode.
-3. Select the desired simulator.
-4. Press Cmd + R to run the app.
+3. To update the *API URL* and *API key*, search for **API_BASE_URL** and **API_KEY** in the build settings.
+4. Select the desired simulator.
+5. Press Cmd + R to run the app.
 
 # Requirements
 - Xcode 15.0+
